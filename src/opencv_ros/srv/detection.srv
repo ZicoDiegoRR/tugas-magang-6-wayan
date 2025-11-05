@@ -1,0 +1,5 @@
+string shape
+int32 orange_amount
+int32 white_amount
+---
+bool done
