@@ -16,7 +16,7 @@ Kedua, clone repositori ini.
 git clone https://github.com/ZicoDiegoRR/tugas-magang-6-wayan.git
 ```
 
-Ketiga, ubah working directory ke repositori.
+Ketiga, ubah working directory ke repositori yang telah diunduh.
 ```bash
 cd <folder/ke/repositori>
 ```
@@ -40,8 +40,10 @@ Ketujuh, buat terminal baru lagi dan ulangi langkah keenam di dalam terminal bar
 
 Kedelapan, pilih salah satu terminal selain terminal untuk menjalankan `roscore` dan jalankan node ROS.
 ```bash
-# NOTE: satu terminala hanya boleh menjalankan salah satu dari command di bawah ini!
+# NOTE: satu terminal hanya boleh menjalankan salah satu dari command di bawah ini!
 
 rosrun opencv_ros client.py # Untuk klien
 rosrun opencv_ros server # Untuk service server
 ```
+
+Selesai :)
